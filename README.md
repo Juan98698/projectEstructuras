@@ -1,4 +1,4 @@
-Análisis Detallado del Programa de Juego de Cartas
+# Análisis Detallado del Programa de Juego de Cartas
 
 Este programa implementa un juego de cartas multijugador (2-4 jugadores) donde los participantes compiten en rondas acumulando puntos al jugar cartas del color seleccionado cada ronda. El objetivo es obtener la mayor cantidad de puntos al final de todas las rondas.
 
@@ -123,4 +123,6 @@ o	Ejemplo: 4 jugadores → 4 puntos para el ganador
 o	Termina cuando se han jugado todas las rondas (cartas iniciales / jugadores)
 o	Gana quien tenga más puntos al final
 ![image](https://github.com/user-attachments/assets/787ee6a6-baa9-44a2-8a95-c95c6de3395f)
+
+![Diagrama de clasde](https://github.com/user-attachments/assets/12878a91-0ec6-4d8e-9954-f00334105264)
 
