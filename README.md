@@ -2,16 +2,16 @@
 
 Este programa implementa un juego de cartas multijugador (2-4 jugadores) donde los participantes compiten en rondas acumulando puntos al jugar cartas del color seleccionado cada ronda. El objetivo es obtener la mayor cantidad de puntos al final de todas las rondas.
 
-Requisitos del Sistema
+# Requisitos del Sistema
 
 •	Compilador C++ compatible con C++11 o superior.
 •	Sistema operativo: Windows, Linux o macOS.
 •	Terminal que soporte códigos de color ANSI (la mayoría de terminales modernos).
 
-Componentes del Programa
+# Componentes del Programa
 El programa se compone de cuatro clases principales
 
-1.	Clase Carta
+# 1.	Clase Carta
 Representa una carta individual del juego.
 Atributos:
 •	color: String que indica el color (Rojo, Azul, Amarillo, Verde)
@@ -19,7 +19,7 @@ Atributos:
 Métodos:
 •	toString(): Devuelve representación coloreada de la carta
 
-2.	Clase Mazo
+# 2.	Clase Mazo
 Gestiona el mazo de cartas del juego.
 
 Atributos:
@@ -35,7 +35,7 @@ robarCarta(): Toma y devuelve la última carta del mazo (eliminándola del vecto
 estaVacio(): Comprueba si el mazo no tiene cartas.
 size(): Devuelve el número de cartas restantes en el mazo.
 
-3.	Clase Jugador 
+# 3.	Clase Jugador 
 Representa a cada participante del juego.
 
 Atributos:
@@ -64,7 +64,7 @@ tieneColor(string color): Comprueba si el jugador tiene alguna carta del color e
 
 tieneCartas(): Devuelve true si el jugador aún tiene cartas en la mano.
 
-4.	Clase Juego
+# 4.	Clase Juego
 	  Controla la lógica principal del juego.
 
 Atributos:
@@ -97,7 +97,7 @@ mostrarResultadosFinales(): Ordena jugadores por puntuación,Muestra clasificaci
 guardarHistorial(): Guarda los resultados en un archivo "historial.txt".
 
 
-Flujo del Juego
+# Flujo del Juego
 1.	Se crea un mazo de 36 cartas (4 colores × 9 números)
 2.	Se reparten cartas equitativamente a los jugadores
 3.	Por cada ronda:
@@ -107,7 +107,7 @@ o	Gana la ronda quien jugó el número más alto del color elegido
 o	El ganador suma puntos (1 por cada jugador)
 4.	Tras todas las rondas, se muestran los resultados finales
 
-4. Reglas del Juego
+# 4. Reglas del Juego
 1.	Preparación:
 o	Se crea un mazo de 36 cartas (4 colores × 9 números)
 o	Se reparten cartas equitativamente a los jugadores
