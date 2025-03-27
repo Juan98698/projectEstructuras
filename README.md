@@ -122,3 +122,5 @@ o	Ejemplo: 4 jugadores → 4 puntos para el ganador
 4.	Fin del juego:
 o	Termina cuando se han jugado todas las rondas (cartas iniciales / jugadores)
 o	Gana quien tenga más puntos al final
+![image](https://github.com/user-attachments/assets/787ee6a6-baa9-44a2-8a95-c95c6de3395f)
+
