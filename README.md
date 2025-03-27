@@ -14,9 +14,13 @@ El programa se compone de cuatro clases principales
 # 1.	Clase Carta
 Representa una carta individual del juego.
 Atributos:
+
 •	color: String que indica el color (Rojo, Azul, Amarillo, Verde)
+
 •	numero: Valor numérico de la carta (1-9)
+
 Métodos:
+
 •	toString(): Devuelve representación coloreada de la carta
 
 # 2.	Clase Mazo
@@ -30,9 +34,13 @@ Métodos;
 Constructor Mazo(): Llama a crearMazo() y barajar() para inicializar el mazo listo para jugar.
 
 crearMazo(): Crea un mazo estándar con 4 colores y números del 1 al 9 (36 cartas total), Cada color tiene 9 cartas numeradas.
+
 barajar(): Mezcla aleatoriamente las cartas del mazo usando std::random_shuffle, Usa la hora actual como semilla para el generador aleatorio.
+
 robarCarta(): Toma y devuelve la última carta del mazo (eliminándola del vector).
+
 estaVacio(): Comprueba si el mazo no tiene cartas.
+
 size(): Devuelve el número de cartas restantes en el mazo.
 
 # 3.	Clase Jugador 
@@ -82,6 +90,7 @@ indiceJugadorInicial (int): Índice del jugador que comienza la ronda.
 totalRondas (int): Número total de rondas a jugar.
 
 Métodos Privados:
+
 repartirCartas():Distribuye cartas equitativamente a todos los jugadores (36/n_jugadores), Calcula el número total de rondas basado en cartas por jugador, Guarda una copia de la mano inicial para cada jugador.
 
 mostrarEstadoJugadores():Muestra estadísticas actuales: cartas restantes, puntos y rondas ganadas.
@@ -99,12 +108,19 @@ guardarHistorial(): Guarda los resultados en un archivo "historial.txt".
 
 # Flujo del Juego
 1.	Se crea un mazo de 36 cartas (4 colores × 9 números)
+
 2.	Se reparten cartas equitativamente a los jugadores
+
 3.	Por cada ronda:
+
 o	El jugador inicial elige un color
+
 o	Todos juegan una carta (obligados a seguir el color si pueden)
+
 o	Gana la ronda quien jugó el número más alto del color elegido
+
 o	El ganador suma puntos (1 por cada jugador)
+
 4.	Tras todas las rondas, se muestran los resultados finales
 
 # 4. Reglas del Juego
