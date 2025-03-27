@@ -123,6 +123,16 @@ o	Ejemplo: 4 jugadores → 4 puntos para el ganador
 o	Termina cuando se han jugado todas las rondas (cartas iniciales / jugadores)
 o	Gana quien tenga más puntos al final
 ![image](https://github.com/user-attachments/assets/787ee6a6-baa9-44a2-8a95-c95c6de3395f)
+# Pruebas de escritorio
+
+![image](https://github.com/user-attachments/assets/f2c8aca9-0b54-47ee-a5c2-6dddd2c959f4)
+
+![image](https://github.com/user-attachments/assets/dacaf3f3-928b-4bfd-9a93-89e952733ac0)
+
+![image](https://github.com/user-attachments/assets/ca342e80-e897-4b11-b212-c4e1dd2bec19)
+
+
+
 
 
 
